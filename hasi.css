@@ -232,7 +232,7 @@ footer {
     #key_photo {
         margin-top: 50px;
         width: 100%;
-        background-image: url("./img/surfsimply_mobile.jpg");
+        background-image: url("./img/bread_mobile.jpg");
         min-height: 300px;
         padding: 0;
         background-repeat: no-repeat;
@@ -249,6 +249,7 @@ footer {
     }
 
     #more_than_bread_description {
+        margin-top: 25px;
         text-align: center;
         width: 90%;
         margin-right: 45px;
