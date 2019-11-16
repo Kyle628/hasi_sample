@@ -7,15 +7,15 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link href="./hasi.css" rel="stylesheet">
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <link href="./hasi_backdrop_filter.css" rel="stylesheet">
     </head>
 
     <div id="home_photo" class="big_parallax">
     <nav>  
         <img src="./img/hasi_mark.png"></img>
-        <div class="nav_links_container"><a href="./about.html"><h2>About Häsi</h2></a></div>
+        <div class="nav_links_container"><h2>About Häsi</h2></div>
         <div class="nav_links_container" ><a data-toggle="modal" data-target="#contactModal"><h2>Contact</h2></a></div>
+        <div class="nav_links_container"><h2>Photos</h2></div>
         <div class="ig_container">
             <div class="nav_links_container">
                 <span class="fa fa-instagram fa-5x"></span>
@@ -30,18 +30,18 @@
     </div>
 
     <body>
-        <div class="scroll_reveal ig_below_container">
+        <div class="ig_below_container">
             <div id="ig_symbol">
                 <i class="fa fa-instagram fa-5x"></i>
             </div>
-            <div id="hasi_handle" class="scroll_reveal">
+            <div id="hasi_handle">
                 <h2>@hasibread</h2>
             </div>
         </div>
-        <div id="hasi_big_opener" class="scroll_reveal">
+        <div id="hasi_big_opener">
             <h2>Art Is In Bread.</h2>
         </div>
-        <div id = "origin_container" class="scroll_reveal">
+        <div id = "origin_container">
             <video id="origin_video" src="./img/bread.mp4" type="video/mp4" controls poster="./img/baker.jpg">
             </video>
             <div id="origin_description_container">
@@ -60,41 +60,41 @@
         </div>
         <div id="natural_color" class="flex_row flex_centered full_width title_section">
             <div class="flex_col flex_centered">
-                <h1 class="scroll_reveal light_bottom_border section_title">NATURAL C<span>O</span>LOR</h1>
+                <h1 class="light_bottom_border section_title">NATURAL C<span>O</span>LOR</h1>
             </div>
         </div>
         <div id="color_photo" class="big_parallax">
         </div>
         <div id="tradition" class="flex_row flex_centered full_width title_section">
                 <div class="flex_col flex_centered">
-                    <h1 class="scroll_reveal light_bottom_border section_title">Tradition</h1>
+                    <h1 class="light_bottom_border section_title">Tradition</h1>
                 </div>
         </div>
         <div id="tradition_photo" class="big_parallax">
         </div>
         <div id="fermentation" class="flex_row flex_centered full_width title_section">
                 <div class="flex_col flex_centered">
-                    <h1 class="scroll_reveal light_bottom_border section_title">Fermentation</h1>
+                    <h1 class="light_bottom_border section_title">Fermentation</h1>
                 </div>
         </div>
         <div id="fermentation_photo" class="big_parallax">
         </div>
         <div id="freshly_milled" class="flex_row flex_centered full_width title_section">
                 <div class="flex_col flex_centered">
-                    <h1 class="scroll_reveal light_bottom_border section_title">Freshly Milled Grain</h1>
+                    <h1 class="light_bottom_border section_title">Freshly Milled</h1>
                 </div>
         </div>
         <div id="freshly_milled_photo" class="big_parallax">
             </div>
         <div class="full_flex_space_between">
             <div id ="more_than_bread_description">
-                <h2 class="scroll_reveal">Locations</h2>
+                <h2>Locations</h2>
                 <br>
-                <p class="scroll_reveal">Häsi bread is available weekly at the Noho Farmers
+                <p>Häsi bread is available weekly at the Noho Farmers
                     Market, or by custom order. Reach out if you would like
                     to make an order.
                 </p>
-                <button class="scroll_reveal btn btn-outline-primary" data-toggle="modal" data-target="#contactModal">Contact</button>
+                <button class="btn btn-outline-primary" data-toggle="modal" data-target="#contactModal">Contact</button>
             </div>
             <img id="fade_to_white" src="./img/fade_to_white.jpg">
         </div>
@@ -127,5 +127,9 @@
 </html>
 
 <script language="JavaScript" type="text/javascript">
-    ScrollReveal().reveal('.scroll_reveal'); 
+    /*$(document).ready(function(){
+      $('.carousel').carousel({
+          interval: 2500
+      })
+    });  */  
   </script>

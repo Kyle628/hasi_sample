@@ -15,8 +15,8 @@
 
 nav {
     display: flex;
-    background-color: white;
-    color: #4b4b4b;;
+    background-color: transparent;
+    color: #white;
     justify-content: space-between;
     padding-left: 25px;
     padding-bottom: 0px;
@@ -32,7 +32,7 @@ nav img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: #4b4b4b;
+    color: white;
     font-size: .75em;
 }
 
@@ -50,7 +50,7 @@ nav h2 {
     margin-top: auto;
     margin: 0;
     font-size: 1.5em;
-    color: #4b4b4b;
+    color: white;
 }
 
 nav span {
@@ -197,14 +197,6 @@ footer {
     justify-content: center;
 }
 
-.flex_end {
-    justify-content: flex-end;
-}
-
-.flex_around {
-    justify-content: space-around;
-}
-
 .title_section {
     height: 400px;
 }
@@ -218,10 +210,6 @@ footer {
     letter-spacing: 3px;
 }
 
-#o_color {
-    color: #55bcc9;
-}
-
 .section_title {
     font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
     color: #333;
@@ -233,10 +221,6 @@ footer {
 
 .full_width {
     width: 100%;
-}
-
-.half_width {
-    width: 50%;
 }
 
 .light_bottom_border {
@@ -268,61 +252,6 @@ footer {
 #freshly_milled_photo {
     background-image: url("./img/freshly_milled.jpg");
 }
-
-#about_photo {
-    height: 200px;
-}
-
-#peeking_hasi {
-    height: 400px;
-}
-
-.left_img_grid {
-    height: 295px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5px;
-    margin-right: 2.5px;
-    margin-left: 2.5px;
-    margin-top: 0;
-}
-
-.right_img_grid {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5px;
-    margin-right: 2.5px;
-    margin-left: 2.5px;
-}
-
-.top_right_img_grid {
-    height: 195px;
-    background-attachment: fixed;
-}
-
-.bottom_right_img_grid {
-    height: 395px;
-}
-
-.pad_top_sm {
-    padding-top: 10px;
-}
-
-.pad_top_md {
-    padding-top: 25px;
-}
-
-.pad_top_lg {
-    padding-top: 50px;
-}
-
-.pillar_container {
-    width: 60%;
-}
-
 
 
 /* only for small devices*/
@@ -451,18 +380,6 @@ footer {
         margin: 0;
         width: 100%;
         height: 600px;
-    
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .little_parallax {
-        margin: 0;
-        width: 50%;
-        height: 300px;
     
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
