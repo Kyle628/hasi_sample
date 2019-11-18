@@ -24,8 +24,22 @@ nav {
     width: 100%;
 }
 
+nav h2, span, img {
+    cursor: pointer;
+}
+
 nav img {
     height: 15vh;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .nav_links_container {
@@ -254,6 +268,10 @@ footer {
     background-image: url("./img/more_bread.jpg");
 }
 
+#about_landing_photo {
+    background-image: url("./img/about.jpg");
+}
+
 #color_photo {
     background-image: url("./img/colored_bread.jpg");
 }
@@ -275,11 +293,12 @@ footer {
 
 #peeking_hasi {
     height: 400px;
+    cursor: initial;
 }
 
 .left_img_grid {
     height: 295px;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +319,7 @@ footer {
 
 .top_right_img_grid {
     height: 195px;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 .bottom_right_img_grid {
@@ -319,14 +338,93 @@ footer {
     padding-top: 50px;
 }
 
+.pad_bot_sm {
+    padding-bottom: 10px;
+}
+
+.pad_bot_md {
+    padding-bottom: 25px;
+}
+
+.pad_bot_lg {
+    padding-bottom: 50px;
+}
+
+.margin_bot_sm {
+    margin-bottom: 10px !important;
+}
 .pillar_container {
     width: 60%;
 }
 
+#hamburger {
+    display: none;
+}
+
+#bottom_tab_bar {
+    display: none;
+}
+
+#pillars {
+    flex-direction: row;
+}
+
+#peeking_mobile_container {
+    display: none;
+}
+
+#peeking_hasi_mobile {
+    display: none;
+}
 
 
 /* only for small devices*/
 @media (max-width: 768px) {
+
+    .pillar_container {
+        width: 90%;
+    }
+
+    #about_landing_photo {
+        height: 600px;
+        background-image: url(./img/about_mobile.jpg);
+        background-position: center;
+    }
+
+    #pillar_values {
+        margin-bottom: 35px;
+    }
+
+    #pillar_values h1{
+        margin-bottom: 25px;
+    }
+
+    #pillars {
+        flex-direction: column;
+    }
+
+    #peeking_hasi {
+        display: none;
+    }
+
+    #peeking_mobile_container {
+        display: flex;
+    }
+
+    #peeking_hasi_mobile {
+        display: block;
+        max-height: 175px;
+        max-width: 175px;
+    }
+
+    .ig_container {
+        display: none;
+    }
+
+    .nav_links_container {
+        padding-right: 5px;
+    }
+
     .big_parallax {
         margin: 0;
         width: 100%;
@@ -357,10 +455,6 @@ footer {
     }
     #freshly_milled_photo {
         background-image: url("./img/freshly_milled_mobile.jpg");
-    }
-
-    .nav_links_container {
-        display: none;
     }
 
     #hasi_handle i, h2{
