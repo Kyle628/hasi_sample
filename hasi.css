@@ -18,7 +18,7 @@ nav {
     background-color: white;
     color: #4b4b4b;;
     justify-content: space-between;
-    padding-left: 25px;
+    padding-left: 0px;
     padding-bottom: 0px;
     height: 15vh;
     width: 100%;
@@ -30,6 +30,7 @@ nav h2, span, img {
 
 nav img {
     height: 15vh;
+    margin-left: 30px;
 }
 
 nav a {
@@ -52,7 +53,7 @@ nav a:hover {
 
 .ig_container {
     display: flex;
-    margin-right: 25px;
+    margin-right: 50px;
 }
 
 h1, h2, p {
@@ -70,7 +71,7 @@ nav h2 {
 nav span {
     margin-top: auto;
     margin: 0;
-    margin-bottom: -5px;
+    margin-bottom: -2px;
 }
 
 #bread_carousel {
@@ -104,11 +105,12 @@ nav span {
 #hasi_big_opener {
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding-top: 50px;
 }
 
 #hasi_big_opener h2 {
     font-size: 3em;
+    letter-spacing: 2.5px;
 }
 
 .full_width_flex_container {
@@ -265,15 +267,45 @@ footer {
 }
 
 #home_photo {
-    background-image: url("./img/more_bread.jpg");
+    background-image: url("./img/home_landing.jpg");
 }
 
 #about_landing_photo {
     background-image: url("./img/about.jpg");
+    background-position: top;
 }
 
 #color_photo {
     background-image: url("./img/colored_bread.jpg");
+}
+
+#colored_bread_2 {
+    background-image: url("./img/colored_bread_2.jpg");
+}
+
+#colored_bread_3 {
+    background-image: url("./img/colored_bread_3.jpg");
+}
+
+#freshly_milled_2 {
+    background-image: url("./img/freshly_milled_2.jpg");
+    background-position: bottom;
+}
+
+#fermentation_2 {
+    background-image: url("./img/fermentation_2.jpeg");
+}
+
+#fermentation_3 {
+    background-image: url("./img/fermentation_3.jpg");
+}
+
+#tradition_2 {
+    background-image: url("./img/tradition_2.jpeg");
+}
+
+#tradition_3 {
+    background-image: url("./img/tradition_3.jpeg");
 }
 
 #tradition_photo {
