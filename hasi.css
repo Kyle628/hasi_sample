@@ -15,12 +15,12 @@
 
 nav {
     display: flex;
-    background-color: white;
-    color: #4b4b4b;;
+    background-color: transparent;
+    color: black;
     justify-content: space-between;
     padding-left: 0px;
     padding-bottom: 0px;
-    height: 15vh;
+    height: 30vh;
     width: 100%;
 }
 
@@ -29,7 +29,7 @@ nav h2, span, img {
 }
 
 nav img {
-    height: 15vh;
+    height: 100%;
     margin-left: 30px;
 }
 
@@ -46,8 +46,8 @@ nav a:hover {
 .nav_links_container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    color: #4b4b4b;
+    justify-content: center;
+    color: black;
     font-size: .75em;
 }
 
@@ -64,14 +64,15 @@ h1, h2, p {
 nav h2 {
     margin-top: auto;
     margin: 0;
-    font-size: 1.5em;
-    color: #4b4b4b;
+    font-size: 2em;
+    color: black;
 }
 
 nav span {
     margin-top: auto;
     margin: 0;
     margin-bottom: -2px;
+    color: black;
 }
 
 #bread_carousel {
@@ -106,6 +107,7 @@ nav span {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    font-weight: 800;
 }
 
 #hasi_big_opener h2 {
@@ -292,6 +294,10 @@ footer {
     background-position: bottom;
 }
 
+#freshly_milled_3 {
+    background-image: url("./img/bread.jpg");
+}
+
 #fermentation_2 {
     background-image: url("./img/fermentation_2.jpeg");
 }
@@ -409,9 +415,35 @@ footer {
     display: none;
 }
 
+#mobile_links_container {
+    display: none;
+}
+
+#we_are_4_purpose {
+    letter-spacing: 2px;
+}
+
 
 /* only for small devices*/
 @media (max-width: 768px) {
+    nav {
+        height: 25vh;
+        margin: 0;
+        justify-content: center;
+    }
+
+    #mobile_links_container {
+        display: flex;
+    }
+
+    nav img {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .nav_links_container {
+        display: none;
+    }
 
     .pillar_container {
         width: 90%;
@@ -469,7 +501,7 @@ footer {
     }
     
     #home_photo {
-        background-image: url("./img/more_bread_mobile.jpg");
+        background-image: url("./img/home_landing_mobile.jpg");
         background-position: center;
         height: 600px;
     }
@@ -487,6 +519,44 @@ footer {
     }
     #freshly_milled_photo {
         background-image: url("./img/freshly_milled_mobile.jpg");
+    }
+
+    #colored_bread_2 {
+        background-image: url("./img/colored_bread_2_mobile.jpg");
+    }
+
+    #colored_bread_3 {
+        background-image: url("./img/colored_bread_3_mobile.jpg");
+    }
+
+    #freshly_milled_2 {
+        background-image: url("./img/freshly_milled_2_mobile.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #freshly_milled_3 {
+        background-image: url("./img/bread_mobile.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #fermentation_2 {
+        background-image: url("./img/fermentation_2_mobile.jpeg");
+        background-repeat: no-repeat;
+    }
+
+    #fermentation_3 {
+        background-image: url("./img/fermentation_3_mobile.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #tradition_2 {
+        background-image: url("./img/tradition_2_mobile.jpeg");
+        background-repeat: no-repeat;
+    }
+
+    #tradition_3 {
+        background-image: url("./img/tradition_3_mobile.jpeg");
+        background-repeat: no-repeat;
     }
 
     #hasi_handle i, h2{
