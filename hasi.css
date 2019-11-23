@@ -237,7 +237,7 @@ footer {
 }
 
 .title_section {
-    height: 40vh;
+    height: 75vh;
 }
 
 #natural_color h1, span {
@@ -453,6 +453,40 @@ footer {
 
 /* only for small devices*/
 @media (max-width: 768px) {
+
+    .title_section {
+        height: 50vh;
+    }
+
+    .left_img_grid {
+        height: 295px;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 5px;
+        margin-right: 2.5px;
+        margin-left: 2.5px;
+        margin-top: 0;
+    }
+    
+    .right_img_grid {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 5px;
+        margin-right: 2.5px;
+        margin-left: 2.5px;
+    }
+    
+    .top_right_img_grid {
+        height: 195px;
+        /*background-attachment: fixed;*/
+    }
+    
+    .bottom_right_img_grid {
+        height: 395px;
+    }
 
     .pillar_paragraph {
         font-size: 3vw;
