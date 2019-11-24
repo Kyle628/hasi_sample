@@ -738,6 +738,10 @@ footer {
         justify-content: center;
     }
 
+    footer {
+        font-size: 3vw;
+    }
+
  }
 
  /*only for large devices*/
