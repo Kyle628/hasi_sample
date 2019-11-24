@@ -716,19 +716,28 @@ footer {
     }
 
     #more_than_bread_description {
-        margin-top: 25px;
+        margin-top: 15px;
         text-align: center;
         width: 90%;
         margin-right: 45px;
+        font-size: 3vw;
+    }
+
+    #more_than_bread_description h2 {
+        font-size: 4vw;
     }
 
     #more_than_bread_description button {
-        width: inherit;
-        font-size: inherit;
+        width: 100%;
+        font-size: 3vw;
     }
 
     #get_bread_container {
         justify-content: center;
+    }
+
+    footer {
+        font-size: 3vw;
     }
 
  }
